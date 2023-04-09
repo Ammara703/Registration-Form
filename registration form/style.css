@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(pexels-vincent-gerbouin-1167021.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+.container
+{
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    box-shadow: 5px 10px 20px 7px rgba(0,0,0,0.65);
+    width: 500px;
+    margin: 2rem 0;
+    line-height: 1.7rem;
+    font-size: 18px;
+    padding: 2rem;
+    margin-left: 10rem;
+}
+h1
+{
+    margin-bottom:2rem;
+}
+input
+{ 
+    color: #fff;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+::placeholder
+{
+    color: #fff;
+    font-size: 18px;
+}
+label
+{
+    display: inline-block;
+    margin: 1rem 1rem 0 0;
+    /* border-bottom:2px solid #fff ; */
+}
+input[type="radio"]
+{
+    margin-left: 1rem;
+}
+
+select
+{
+    height: 2rem;
+    color: #fff;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 0.3rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+select option
+{
+    color: black;
+}
+
+button
+{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+    border: transparent;
+    font-weight: 700;
+    line-height: 1rem;
+    letter-spacing: 0.1rem;
+    
+    background-color: #157085;
+    color: #fff;
+    font-size: 16px;
+    border-radius:5px ;
+    cursor: pointer;
+}
+
+button:hover
+{
+color: #1f4984; 
+    background: #4dc6e2;
+}
+
+@media (max-width:770px)
+{
+    .container
+    {
+        margin: 0 auto;
+    }
+}
+ @media (max-width:550px)
+{
+    .container
+    {
+        
+        margin: 2rem;
+    }
+} 
+    
+
